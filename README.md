@@ -19,15 +19,12 @@
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
 6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
 
 ## <a name="introduction">🤖 Introduction</a>
 
 Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles.
 Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or
 inspiration for future modern applications or websites in general.
-
-
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -516,23 +513,23 @@ export default {
 export const features = [
   {
     id: '0',
-    icon: `${import.meta.env.BASE_URL}images/feature-1.png`,
+    icon: '/images/feature-1.png',
     caption: 'Easy integration',
     title: 'Work smarter not harder',
     text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
-      icon: `${import.meta.env.BASE_URL}images/magictouch.svg`,
+      icon: '/images/magictouch.svg',
       title: 'Watch the demo',
     },
   },
   {
     id: '1',
-    icon: `${import.meta.env.BASE_URL}images/feature-2.png`,
+    icon: '/images/feature-2.png',
     caption: 'Secure & trustworthy',
     title: 'Sleep easy, we got your back',
     text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
     button: {
-      icon: `${import.meta.env.BASE_URL}images/docs.svg`,
+      icon: '/images/docs.svg',
       title: 'Read the docs',
     },
   },
@@ -541,22 +538,22 @@ export const features = [
 export const details = [
   {
     id: '0',
-    icon: `${import.meta.env.BASE_URL}images/detail-1.png`,
+    icon: '/images/detail-1.png',
     title: 'AI automated video editing',
   },
   {
     id: '1',
-    icon: `${import.meta.env.BASE_URL}images/detail-2.png`,
+    icon: '/images/detail-2.png',
     title: 'Collaborate with your team',
   },
   {
     id: '2',
-    icon: `${import.meta.env.BASE_URL}images/detail-3.png`,
+    icon: '/images/detail-3.png',
     title: 'Ultra fast cloud-engine',
   },
   {
     id: '3',
-    icon: `${import.meta.env.BASE_URL}images/detail-4.png`,
+    icon: '/images/detail-4.png',
     title: '24 / 7 Customer support',
   },
 ];
@@ -637,8 +634,8 @@ export const plans = [
       '5 projects',
       '24/7 support',
     ],
-    icon: `${import.meta.env.BASE_URL}images/circle.svg`,
-    logo: `${import.meta.env.BASE_URL}images/plan-1.png`,
+    icon: '/images/circle.svg',
+    logo: '/images/plan-1.png',
   },
   {
     id: '1',
@@ -652,8 +649,8 @@ export const plans = [
       'Unlimited projects',
       'Analytics',
     ],
-    icon: `${import.meta.env.BASE_URL}images/triangle.svg`,
-    logo: `${import.meta.env.BASE_URL}images/plan-2.png`,
+    icon: '/images/triangle.svg',
+    logo: '/images/plan-2.png',
   },
   {
     id: '2',
@@ -667,8 +664,8 @@ export const plans = [
       '50% off per member',
       'Real-time collaboration',
     ],
-    icon: `${import.meta.env.BASE_URL}images/hexagon.svg`,
-    logo: `${import.meta.env.BASE_URL}images/plan-3.png`,
+    icon: '/images/hexagon.svg',
+    logo: '/images/plan-3.png',
   },
 ];
 
@@ -677,7 +674,7 @@ export const testimonials = [
     id: '0',
     name: 'Jessica Saunders',
     role: 'Globalnomads',
-    avatarUrl: `${import.meta.env.BASE_URL}images/testimonials/jessica-saunders.png`,
+    avatarUrl: '/images/testimonials/jessica-saunders.png',
     comment:
       "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
@@ -685,7 +682,7 @@ export const testimonials = [
     id: '1',
     name: 'Mark Erixon',
     role: 'Vid capital intl',
-    avatarUrl: `${import.meta.env.BASE_URL}images/testimonials/mark-erixon.png`,
+    avatarUrl: '/images/testimonials/mark-erixon.png',
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
@@ -693,7 +690,7 @@ export const testimonials = [
     id: '2',
     name: 'Melanie Hurst',
     role: 'Cyberleap',
-    avatarUrl: `${import.meta.env.BASE_URL}images/testimonials/melanie-hurst.png`,
+    avatarUrl: '/images/testimonials/melanie-hurst.png',
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
@@ -701,7 +698,7 @@ export const testimonials = [
     id: '3',
     name: 'Alicia Barker',
     role: 'Cyberleap',
-    avatarUrl: `${import.meta.env.BASE_URL}images/testimonials/alicia-barker.png`,
+    avatarUrl: '/images/testimonials/alicia-barker.png',
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
@@ -709,7 +706,7 @@ export const testimonials = [
     id: '4',
     name: 'Becky Snider',
     role: 'Floclips',
-    avatarUrl: `${import.meta.env.BASE_URL}images/testimonials/becky-snider.png`,
+    avatarUrl: '/images/testimonials/becky-snider.png',
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
@@ -717,7 +714,7 @@ export const testimonials = [
     id: '5',
     name: 'Jim Bradley',
     role: 'Vid capital intl',
-    avatarUrl: `${import.meta.env.BASE_URL}images/testimonials/jim-bradley.png`,
+    avatarUrl: '/images/testimonials/jim-bradley.png',
     comment:
       'The efficiency boost is undeniable. This platform has transformed our workflow, forever.',
   },
@@ -727,35 +724,35 @@ export const logos = [
   {
     id: '0',
     title: 'Afterpay',
-    url: `${import.meta.env.BASE_URL}images/logos/afterpay.svg`,
+    url: '/images/logos/afterpay.svg',
     width: 156,
     height: 48,
   },
   {
     id: '1',
     title: 'Amplitude',
-    url: `${import.meta.env.BASE_URL}images/logos/amplitude.svg`,
+    url: '/images/logos/amplitude.svg',
     width: 194,
     height: 48,
   },
   {
     id: '2',
     title: 'Sonos',
-    url: `${import.meta.env.BASE_URL}images/logos/sonos.svg`,
+    url: '/images/logos/sonos.svg',
     width: 115,
     height: 48,
   },
   {
     id: '3',
     title: 'Maze',
-    url: `${import.meta.env.BASE_URL}images/logos/maze.svg`,
+    url: '/images/logos/maze.svg',
     width: 142,
     height: 48,
   },
   {
     id: '4',
     title: 'Drips',
-    url: `${import.meta.env.BASE_URL}images/logos/drips.svg`,
+    url: '/images/logos/drips.svg',
     width: 77,
     height: 48,
   },
@@ -920,25 +917,25 @@ export const socials = [
   {
     id: '0',
     title: 'x',
-    icon: `${import.meta.env.BASE_URL}images/socials/x.svg`,
+    icon: '/images/socials/x.svg',
     url: '#',
   },
   {
     id: '1',
     title: 'Threads',
-    icon: `${import.meta.env.BASE_URL}images/socials/threads.svg`,
+    icon: '/images/socials/threads.svg',
     url: '#',
   },
   {
     id: '2',
     title: 'Instagram',
-    icon: `${import.meta.env.BASE_URL}images/socials/instagram.svg`,
+    icon: '/images/socials/instagram.svg',
     url: '#',
   },
   {
     id: '3',
     title: 'Discord',
-    icon: `${import.meta.env.BASE_URL}images/socials/discord.svg`,
+    icon: '/images/socials/discord.svg',
     url: '#',
   },
 ];
@@ -979,4 +976,3 @@ export default Marker;
 
 Assets used in the project can be
 found [here](https://drive.google.com/file/d/1u-l3p3qCnrwmWq5-bG7OkfCXFPYM9t5z/view?usp=sharing)
-
