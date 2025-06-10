@@ -1,5 +1,6 @@
 {
   "name": "saas_landing_page",
+  "homepage": "https://ayankhan00.github.io/Xora/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,14 +8,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.3.3",
-    "react": "^18.3.1",
+    "react": "^18.2.0",
     "react-countup": "^6.5.3",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.2.0",
     "react-scroll": "^1.9.0",
     "react-slidedown": "^2.4.7"
   },
